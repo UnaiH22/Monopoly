@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Monopoly</groupId>
-  <artifactId>Monopoly</artifactId>
+  <artifactId>MonopolyIC</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -13,6 +13,9 @@
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
+      <sonar.organization>unaiheras</sonar.organization>
+  	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  	  <sonar.login>0474e4e1a2a6d8eb29eb9ee5fbaa83804d338941</sonar.login>
   </properties>
 
   <dependencies>
